@@ -4,7 +4,7 @@ metadata:
   name: roboshop-junior
   namespace: roboshop
 rules:
-- apiGroups: ["apps/v1"]  # "" indicates the core API group i.e, v1
+- apiGroups: ["apps"]  # "" indicates the core API group i.e, v1
   resources: ["deployments"]  # nouns
   verbs: ["get", "watch", "list"]  # actions
 ---
